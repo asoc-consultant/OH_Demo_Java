@@ -1,7 +1,7 @@
   name: HCL AppScan Static Analyzer
   # You may pin to the exact commit or the version.
   on:
-  workflow_dispatch
+    workflow_dispatch
   jobs:
     scan:
       runs-on: ubuntu-latest
